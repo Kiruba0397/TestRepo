@@ -21,6 +21,16 @@ public class StudentController {
         Student savedStudent = service.saveStudent(student);
         return savedStudent;
     }
+    @PostMapping("/saveall")
+    public Student saveStudent123(@RequestBody Student student){
+        Student savedStudent = service.saveStudent(student);
+        return savedStudent;
+    }
+    @PostMapping("/saveall")
+    public Student saveStudent1234(@RequestBody Student student){
+        Student savedStudent = service.saveStudent(student);
+        return savedStudent;
+    }
 
     @GetMapping("/get/{studentId}")
     public Student getById(@PathVariable Long studentId){
