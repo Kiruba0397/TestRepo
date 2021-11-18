@@ -53,6 +53,6 @@ public class StudentController {
    
     	@GetMapping("/sample")
     	public String test() {
-    		return "Welcome Kiruba wincy";
+    		return "Welcome Purchase Service CI/CD Team";
     	}
 }
